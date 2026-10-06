@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tidawan Sopapron - Resume</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background: #f2f4f6;
+            color: #222;
+            line-height: 1.5;
+        }
+
+        .resume {
+            max-width: 1000px;
+            margin: 30px auto;
+            background: #fff;
+            padding: 45px;
+            box-shadow: 0 5px 25px rgba(0, 0, 0, 0.08);
+        }
+
+        .header {
+            display: flex;
+            align-items: center;
+            gap: 35px;
+            border-bottom: 2px solid #315878;
+            padding-bottom: 25px;
+            margin-bottom: 25px;
+        }
+
+        .profile-photo {
+            width: 180px;
+            height: 210px;
+            object-fit: cover;
+            border: 1px solid #777;
+        }
+
+        .name {
+            color: #315878;
+            font-size: 38px;
+            line-height: 1.15;
+            font-weight: 700;
+        }
+
+        .nickname {
+            font-size: 22px;
+            color: #555;
+            margin-top: 5px;
+        }
+
+        .content {
+            display: grid;
+            grid-template-columns: 1fr 1.35fr;
+            gap: 35px;
+        }
+
+        .left {
+            border-right: 2px solid #d5dce2;
+            padding-right: 30px;
+        }
+
+        .section {
+            margin-bottom: 25px;
+        }
+
+        .section-title {
+            background: #cfe2f3;
+            color: #111;
+            font-size: 22px;
+            font-weight: 700;
+            padding: 7px 14px;
+            margin-bottom: 12px;
+        }
+
+        .profile-text {
+            font-size: 16px;
+        }
+
+        ul {
+            padding-left: 22px;
+        }
+
+        li {
+            margin-bottom: 6px;
+        }
+
+        .job {
+            margin-bottom: 17px;
+        }
+
+        .job-title {
+            font-size: 18px;
+            font-weight: 700;
+        }
+
+        .job-place {
+            font-size: 16px;
+            margin-left: 3px;
+        }
+
+        .job ul {
+            margin-top: 4px;
+        }
+
+        .education-item {
+            margin-bottom: 18px;
+        }
+
+        .education-item strong {
+            font-size: 17px;
+        }
+
+        .contact-item {
+            margin-bottom: 8px;
+            font-size: 16px;
+        }
+
+        .contact-label {
+            font-weight: 700;
+        }
+
+        .footer {
+            text-align: center;
+            margin-top: 35px;
+            padding-top: 15px;
+            border-top: 1px solid #ddd;
+            color: #315878;
+            font-weight: 700;
+            letter-spacing: 1px;
+        }
+
+        @media (max-width: 750px) {
+            .resume {
+                margin: 0;
+                padding: 25px;
+            }
+
+            .header {
+                flex-direction: column;
+                text-align: center;
+            }
+
+            .content {
+                grid-template-columns: 1fr;
+            }
+
+            .left {
+                border-right: none;
+                border-bottom: 2px solid #d5dce2;
+                padding-right: 0;
+                padding-bottom: 20px;
+            }
+
+            .name {
+                font-size: 30px;
+            }
+        }
+
+        @media print {
+            body {
+                background: white;
+            }
+
+            .resume {
+                margin: 0;
+                max-width: none;
+                box-shadow: none;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+<div class="resume">
+
+    <!-- HEADER -->
+    <header class="header">
+        <img src="IMG_6273.jpeg" alt="Tidawan Sopapron" class="profile-photo">
+
+        <div>
+            <h1 class="name">TIDAWAN SOPAPRON</h1>
+            <div class="nickname">(KAEW)</div>
+        </div>
+    </header>
+
+    <div class="content">
+
+        <!-- LEFT COLUMN -->
+        <aside class="left">
+
+            <!-- CONTACT -->
+            <section class="section">
+                <h2 class="section-title">CONTACT</h2>
+
+                <div class="contact-item">
+                    <span class="contact-label">Phone:</span> 080-934-8710
+                </div>
+
+                <div class="contact-item">
+                    <span class="contact-label">Line ID:</span> 0809348710
+                </div>
+
+                <div class="contact-item">
+                    <span class="contact-label">Address:</span>
+                    The Residence, No. 141, Soi Pracha Songkhro 29,
+                    Din Daeng Subdistrict, Din Daeng District,
+                    Bangkok, 10400
+                </div>
+            </section>
+
+            <!-- PROFILE -->
+            <section class="section">
+                <h2 class="section-title">PROFILE STATEMENT</h2>
+
+                <p class="profile-text">
+                    I am a hardworking, adaptable, and service-minded university
+                    student currently studying at the University of the Thai
+                    Chamber of Commerce (UTCC). I have practical experience
+                    in customer service, hospitality, housekeeping, healthcare
+                    assistance, retail, and event support.
+                </p>
+            </section>
+
+            <!-- PERSONAL -->
+            <section class="section">
+                <h2 class="section-title">PERSONAL</h2>
+
+                <ul>
+                    <li>Age: 19</li>
+                    <li>DOB: 30/04/2007</li>
+                    <li>Nationality: Thai</li>
+                    <li>Religion: Buddhism</li>
+                </ul>
+            </section>
+
+            <!-- EDUCATION -->
+            <section class="section">
+                <h2 class="section-title">EDUCATION</h2>
+
+                <div class="education-item">
+                    <strong>University Student (Present)</strong>
+                    <p>University of the Thai Chamber of Commerce (UTCC)</p>
+                </div>
+
+                <div class="education-item">
+                    <strong>Practical Nursing Assistant Program</strong>
+                    <p>Pattanakarn Practical Nurse School</p>
+                </div>
+
+                <div class="education-item">
+                    <strong>High School<br>(Graduated 2025)</strong>
+                    <p><strong>GPA: 3.39</strong></p>
+                    <p>Chiang Khan School</p>
+                </div>
+            </section>
+
+        </aside>
+
+        <!-- RIGHT COLUMN -->
+        <main>
+
+            <!-- WORK EXPERIENCE -->
+            <section class="section">
+                <h2 class="section-title">WORK EXPERIENCE</h2>
+
+                <div class="job">
+                    <div class="job-title">Waitress &amp; Service</div>
+                    <div class="job-place">Local Restaurant / Chiang Khan Hotel</div>
+                    <ul>
+                        <li>Wait Orders, Manage Service</li>
+                    </ul>
+                </div>
+
+                <div class="job">
+                    <div class="job-title">Housekeeping, Hotel</div>
+                    <ul>
+                        <li>Maintain Cleanliness, Guest Hospitality</li>
+                    </ul>
+                </div>
+
+                <div class="job">
+                    <div class="job-title">Nursing Assistant Intern, Medical Clinic</div>
+                    <ul>
+                        <li>Assist Medical Staff, Basic Patient Care</li>
+                    </ul>
+                </div>
+
+                <div class="job">
+                    <div class="job-title">Store Associate, 7-Eleven</div>
+                    <ul>
+                        <li>Cashier, Restocking, Customer Assistance</li>
+                        <li>List Date code, Dates, location to be clean</li>
+                    </ul>
+                </div>
+
+                <div class="job">
+                    <div class="job-title">Event Assistant, Photo Booth Events</div>
+                    <ul>
+                        <li>Facilitate Activities</li>
+                    </ul>
+                </div>
+            </section>
+
+            <!-- SKILLS -->
+            <section class="section">
+                <h2 class="section-title">SKILLS</h2>
+
+                <ul>
+                    <li>Service Excellence</li>
+                    <li>Adaptability</li>
+                    <li>Diligence</li>
+                    <li>Teamwork</li>
+                </ul>
+            </section>
+
+            <!-- HOBBIES -->
+            <section class="section">
+                <h2 class="section-title">HOBBIES</h2>
+
+                <ul>
+                    <li>Reading books</li>
+                    <li>Video filming &amp; editing</li>
+                    <li>Listening to music</li>
+                </ul>
+            </section>
+
+        </main>
+
+    </div>
+
+    <footer class="footer">
+        🌱 GROW YOUR FUTURE
+    </footer>
+
+</div>
+
+</body>
+</html>
